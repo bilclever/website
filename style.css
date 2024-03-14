@@ -1,0 +1,118 @@
+body{
+    background-image: url(background2.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: left;
+}
+.main{
+    width: 100%;
+text-align: right;
+text-decoration: none;
+}
+.logo{
+color: orange;
+float: left;
+padding-top: 15;
+font-size: 25px;
+padding-left: 20px;
+padding-right: 0px;
+}
+.top{
+    float: right;
+}
+.menu{
+text-align: center;
+float: inline-end;
+float:right;
+}
+menu a{
+    text-decoration: none;
+}
+ul{
+padding: 50px;
+float: left;
+justify-content: center;
+align-items: center;
+display: flex;
+}
+ul li{
+    float: inherit;
+    margin-top: 27px;
+    margin: 50px;
+    list-style: none;
+    margin-left: 62px;
+}
+#search{
+    float: inherit;
+    margin-top: 12px;
+    margin-right: 0px;
+}
+
+.contenu{
+    float: left;
+    padding-left: 20px;
+}
+strong{
+    color: orange; 
+}
+button{
+background-color: orange;
+border-style: solid;
+border-radius: 10px;
+width: 100px;
+height: 25px;
+}
+button a{
+    color: black;
+    background-color: orange;
+    text-decoration: none;
+}
+button a:hover{
+    background-color: white;
+}
+.connexion{
+    float: right;
+    border: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin-right: 20px;
+}
+.titre{
+    border-radius: 5px;
+    color: orange;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    margin: 10px;
+}
+input{
+    margin:10px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background: transparent;
+    border-color: orange;
+    color: white;
+}
+.button{
+    border-radius: 10px;
+    color: black;
+    background-color:orange;
+    border-style: solid;
+    text-align: center; 
+}
+.acount{
+    text-align: center;
+    padding: 10px;
+}
+}
+.br{
+    color: orange;
+}
+.moyendeconnexion{
+    text-align: center;
+    padding: 20px;
+}
