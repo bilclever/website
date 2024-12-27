@@ -1,60 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body{
-    background-image: url(background2.jpeg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    float: left;
+    background-image: url(background1.jpg);
+    background-size: cover;
+
 }
 .main{
-    width: 100%;
-text-align: right;
-text-decoration: none;
+    display: flex;
+    margin-top: 3vh;
+    
+    
+    
 }
 .logo{
 color: orange;
+font-size: 20px;
+
 float: left;
-padding-top: 15;
-font-size: 25px;
-padding-left: 20px;
-padding-right: 0px;
-}
-.top{
-    float: right;
+margin-left: 2vw;
+margin-top:-1vh ;
 }
 .menu{
-text-align: center;
-float: inline-end;
-float:right;
-}
-menu a{
+    float:center;
     text-decoration: none;
+    margin-left: 10vw;
+
+}
+.menu a{
+    text-decoration: none;
+    color: white;
 }
 ul{
-padding: 50px;
-float: left;
-justify-content: center;
-align-items: center;
-display: flex;
+    list-style: none;
+    display: flex;
 }
 ul li{
-    float: inherit;
-    margin-top: 27px;
-    margin: 50px;
-    list-style: none;
-    margin-left: 62px;
+    padding-right: 22px; 
 }
-#search{
-    float: inherit;
-    margin-top: 12px;
-    margin-right: 0px;
+.search{
+    float: right;
+    margin-top: -1vh;
+}
+.search input{
+    border-radius: 5px;
+    width: 150px;
+
+    
+    
+}
+.search button{
+    border-radius: 5px;
+    width: 70px;
 }
 
 .contenu{
     float: left;
     padding-left: 20px;
+    float: flex;
+    margin-top: 20vh;
+}
+.contenu_1{
+    float: left;
+    color: white;
 }
 strong{
     color: orange; 
 }
+.contenu_1 button{
+    margin-top: 10px;
+
+}
+
 button{
 background-color: orange;
 border-style: solid;
@@ -70,14 +89,20 @@ button a{
 button a:hover{
     background-color: white;
 }
+
+
+    
 .connexion{
+    color: white;
     float: right;
+    width: 20vw;
     border: 5px;
     border-style: solid;
+    border-color: black;
     border-radius: 10px;
     text-align: center;
     padding: 10px;
-    margin-right: 20px;
+    margin-left: 130px;
 }
 .titre{
     border-radius: 5px;
@@ -86,10 +111,12 @@ button a:hover{
     border-style: solid;
     border-color: black;
     text-align: center;
-    margin: 10px;
+    margin: 5px;
 }
-input{
-    margin:10px;
+.connexion div input{
+    width: 100%;
+    margin: 5px;
+    
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
@@ -102,17 +129,34 @@ input{
     color: black;
     background-color:orange;
     border-style: solid;
-    text-align: center; 
+    text-align: center;
+    margin: 5px;
+    width: 100%; 
 }
 .acount{
     text-align: center;
-    padding: 10px;
+    font-size: 10px;
+   
 }
+.acount a{
+    text-decoration: none;
 }
-.br{
+.acount span{
     color: orange;
+    text-decoration: none;
 }
-.moyendeconnexion{
-    text-align: center;
-    padding: 20px;
+
+.icons{
+    margin-top: 2vh;
+    
 }
+.icons a{
+    text-decoration: none;
+    color: white;
+}
+.icons a:hover{
+    color: orange;
+}   
+
+
+
